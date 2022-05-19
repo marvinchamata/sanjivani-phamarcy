@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') {
   build.postcss = {
     preset: {
       features: {
-        customProperties: false
+        customProperties: true
       }
     },
     plugins: [
