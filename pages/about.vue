@@ -2,7 +2,7 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
       title="About us"
-      subtitle="Sanjivani Pharmaceuticals Linited"
+      subtitle="Sanjivani Pharmaceuticals Limited"
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
