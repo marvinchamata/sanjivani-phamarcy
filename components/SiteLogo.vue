@@ -3,7 +3,7 @@
     <div
       :class="{
         'logo-inner': true,
-        blink: blinking
+        Spin: spinning
       }"
     >
       <img
@@ -26,19 +26,19 @@ export default {
     return {
       frames: 5,
       currentFrame: 1,
-      blinking: true
+      spinning: true
     }
   },
   mounted() {
     setInterval(() => {
       const rand = Math.ceil(Math.random() * 10)
-      this.blinking = rand % 2
+      this.spinning = rand % 2
     }, 1000)
   }
 }
 </script>
 <style lang="scss">
-@keyframes logoBlink {
+@keyframes logoSpin {
   100% {
     transform: translateY(-360px);
   }
@@ -58,7 +58,7 @@ export default {
       max-height: initial;
     }
     &.blink {
-      animation: logoBlink 0.2s steps(8, end) alternate;
+      animation: logoSpin 0.2s steps(8, end) alternate;
     }
   }
 }
