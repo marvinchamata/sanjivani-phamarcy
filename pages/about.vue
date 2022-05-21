@@ -2,18 +2,14 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
       title="About Us"
-      subtitle="About Sanjivani Pharmaceuticals"
+      subtitle="Sanjivani Pharmaceuticals Linited"
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
           <h3> About Us</h3>
-          <p>
-            <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
-            </strong>
-          </p>
+         
           <p>
             With offices in SADC regions, Sanjivani Pharmaceutical works with many of the world’s leading
 companies through various agreements, partnerships and joint ventures, the group is a leading
@@ -26,8 +22,7 @@ chain of local pharmacies, the company is managed by a highly experienced team c
 SADC regions and expatriates with diverse backgrounds and skill sets
           </p>
 
-          <h3>Another Fake Heading</h3>
-          <p>Sanjivani Pharmaceuticals is a pharmaceutical wholesaler and distributor committed to delivering
+                  <p>Sanjivani Pharmaceuticals is a pharmaceutical wholesaler and distributor committed to delivering
 a high standard of service to national and international partners in the healthcare sector.
 
      </p> 
