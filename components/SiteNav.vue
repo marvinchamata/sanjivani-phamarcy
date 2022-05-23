@@ -54,7 +54,7 @@ export default {
   components: { SiteSearch, HamburgerButton },
   data() {
     return {
-      active: false
+      active: true
     }
   }
 }
