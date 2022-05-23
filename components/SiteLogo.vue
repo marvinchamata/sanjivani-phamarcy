@@ -38,7 +38,7 @@ export default {
 }
 </script>
 <style lang="scss">
-@keyframes logoSpin {
+@keyframes logoblink {
   100% {
     transform: translateY(-360px);
   }
