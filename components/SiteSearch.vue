@@ -67,7 +67,7 @@ export default {
   },
   methods: {
     toggleSearchBar() {
-      this.transitioning = true
+      this.transitioning = false
       this.active = !this.active
       this.matches = true
       this.query = ''
