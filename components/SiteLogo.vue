@@ -26,7 +26,7 @@ export default {
     return {
       frames: 9,
       currentFrame: 1,
-      blinking: true
+      blinking: false
     }
   },
   mounted() {
@@ -47,7 +47,7 @@ export default {
   position: relative;
   height: 100px;
   overflow: hidden;
-  width: 200px;
+  width: 100px;
   .logo-inner {
     position: absolute;
     height: 100px;
@@ -58,7 +58,7 @@ export default {
       max-height: initial;
     }
     &.blink {
-      animation: logoSpin 0.2s steps(8, end) alternate;
+      animation: logoblink 0.2s steps(8, end) alternate;
     }
   }
 }
