@@ -13,7 +13,7 @@
         v-model="query"
         autocomplete="off"
         :class="{
-          input: true
+          input: false
         }"
         type="search"
         @keyup.enter="search"
@@ -59,7 +59,7 @@ export default {
     return {
       active: true,
       transitioning: false,
-      matches: true,
+      matches: false,
       haystack: [],
       query: '',
       lastQuery: ''
