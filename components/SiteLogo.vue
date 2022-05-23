@@ -3,7 +3,7 @@
     <div
       :class="{
         'logo-inner': true,
-        Spin: spinning
+        blink: blinking
       }"
     >
       <img
@@ -32,7 +32,7 @@ export default {
   mounted() {
     setInterval(() => {
       const rand = Math.ceil(Math.random() * 10)
-      this.spinning = rand % 2
+      this.blinking = rand % 2
     }, 1000)
   }
 }
