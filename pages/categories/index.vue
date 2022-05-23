@@ -1,6 +1,8 @@
-<div> <div/>
+<div> 
 
  <h3>ACTIVE PHARMACEUTICAL INGREDIENTS<h3/>
+ 
+  <div/>
 
 <template>
   <div id="categories-page" class="page-wrapper categories-page">
