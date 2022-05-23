@@ -24,7 +24,7 @@ export default {
   name: 'SiteLogo',
   data() {
     return {
-      frames: 1,
+      frames: 4,
       currentFrame: 1,
       blinking: false
     }
@@ -45,15 +45,15 @@ export default {
 }
 .logo-wrapper {
   position: relative;
-  height: 200px;
+  height: 150px;
   overflow: hidden;
   width: 200px;
   .logo-inner {
     position: absolute;
-    height: 200px;
+    height: 150px;
     img {
       display: block;
-      height: 200px;
+      height: 150px;
       margin: 5px;
       max-height: initial;
     }
