@@ -3,7 +3,9 @@
     <site-hero title="Products" image="https://picsum.photos/1800/1801" />
     <main-section theme="one-column">
       <categories-grid />
-      <h3>ACTIVE PHARMACEUTICAL INGREDIENTS<h3/>
+      
+      <p>ACTIVE PHARMACEUTICAL INGREDIENTS<p/>
+      
     </main-section>
   </div>
 </template>
