@@ -45,15 +45,15 @@ export default {
 }
 .logo-wrapper {
   position: relative;
-  height: 105px;
+  height: 100px;
   overflow: hidden;
   width: 180px;
   .logo-inner {
     position: absolute;
-    height: 105px;
+    height: 100px;
     img {
       display: block;
-      height: 105px;
+      height: 100px;
       margin: 5px;
       max-height: initial;
     }
