@@ -1,10 +1,9 @@
+ <h3>ACTIVE PHARMACEUTICAL INGREDIENTS<h3/>
+
 <template>
   <div id="categories-page" class="page-wrapper categories-page">
     <site-hero title="Products" image="https://picsum.photos/1800/1801" />
-    <main-section theme="one-column">
-    
-      <p>ACTIVE PHARMACEUTICAL INGREDIENTS<p/>
-      
+    <main-section theme="one-column">  
       <categories-grid />
       
     </main-section>
@@ -20,4 +19,3 @@ export default {
 }
 </script>
 
-<h3>ACTIVE PHARMACEUTICAL INGREDIENTS<h3/>
