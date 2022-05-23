@@ -47,7 +47,7 @@ export default {
   position: relative;
   height: 120px;
   overflow: hidden;
-  width: 120px;
+  width: 140px;
   .logo-inner {
     position: absolute;
     height: 120px;
