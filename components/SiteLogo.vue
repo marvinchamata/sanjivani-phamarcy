@@ -24,9 +24,9 @@ export default {
   name: 'SiteLogo',
   data() {
     return {
-      frames: 5,
+      frames: 9,
       currentFrame: 1,
-      spinning: true
+      blinking: true
     }
   },
   mounted() {
