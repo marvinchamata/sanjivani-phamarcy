@@ -10,7 +10,7 @@
 export default {
   head() {
     return {
-      title: `Products <h3>(ACTIVE PHARMACEUTICAL INGREDIENTS)<h3/>| ${this.$siteConfig.siteName}`
+      title: `Products <h3>ACTIVE PHARMACEUTICAL INGREDIENTS<h3/>| ${this.$siteConfig.siteName}`
     }
   }
 }
