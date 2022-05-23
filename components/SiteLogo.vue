@@ -24,7 +24,7 @@ export default {
   name: 'SiteLogo',
   data() {
     return {
-      frames: 9,
+      frames: 1,
       currentFrame: 1,
       blinking: false
     }
@@ -50,7 +50,7 @@ export default {
   width: 200px;
   .logo-inner {
     position: absolute;
-    height: 2000px;
+    height: 200px;
     img {
       display: block;
       height: 200px;
