@@ -1,7 +1,7 @@
 <template>
   <div
     :class="{
-      'search-wrapper': true,
+      'search-wrapper': false,
       active: active,
       transitioning: transitioning,
       inactive: !active && !transitioning
