@@ -2,9 +2,10 @@
   <div id="categories-page" class="page-wrapper categories-page">
     <site-hero title="Products" image="https://picsum.photos/1800/1801" />
     <main-section theme="one-column">
-      <categories-grid />
-      
+    
       <p>ACTIVE PHARMACEUTICAL INGREDIENTS<p/>
+      
+      <categories-grid />
       
     </main-section>
   </div>
