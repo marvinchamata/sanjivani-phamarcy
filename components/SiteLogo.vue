@@ -2,7 +2,7 @@
   <div class="logo-wrapper">
     <div
       :class="{
-        'logo-inner': false,
+        'logo-inner': true,
         blink: blinking
       }"
     >
